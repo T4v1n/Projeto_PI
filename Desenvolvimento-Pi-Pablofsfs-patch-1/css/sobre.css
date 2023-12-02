@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 /*GITHUB*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-    font-family: 'Poppins', sans-serif;
-    list-style:none;
-    text-decoration:none;
-}
+
 
 :root{
     --laranja:#ff6600;
@@ -16,68 +9,6 @@
     --branco:#ffffff;
 }
 
-nav{
-    max-width: 100vw;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 5px 40px;
-    background: var(--preto);
-    transition:all 0.5s;
-    top:0;
-    left:0;
-    position: relative; /*FIXA O NAV SEM DEIXAR O BANNER SOBREPOR */
-    z-index: 1; /*POSIÇÃO DOS OBJETOS*/
-    
-}
-
-.logotipo{
-    margin: 0%;
-    padding: 0%;
-    width: 200px;
-   
-}
-    
-.logotipo a img{
-    width:100%;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    margin: 0%;
-    padding: 20px 0;
-
-}
-
-
-
-.nav-menu ul{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5.5rem;
-    
-}
-nav a{
-    font-size: 16px;
-    color:var(--branco);
-    font-weight:500;
-    margin:0 auto;
-    transition: all 0.5s;
-}
-.nav-menu a:hover{
-    color:var(--laranja);
-}
-
-.menu-icon {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.5rem;
-    font-size: 3.5rem;
-}
-i{
-    font-size: 1.5rem;
-}
 
 
 main{
@@ -149,8 +80,11 @@ section.conteudo02{
     display: flex;
     justify-content: space-between;
     padding:10px 310px;
+  
 }
-
+.locsobre{
+    margin-top: 200px;
+}
 .texto2 {
     padding: 10px 0px 10px 0;
 }
@@ -158,6 +92,7 @@ section.conteudo02{
 .texto2 p{
     padding: 0px 0 10px 100px;
     height: auto;
+
 }
 
 .conteudo02 img{
@@ -165,4 +100,5 @@ section.conteudo02{
     max-width:600px;
     width: 100%;
     max-height: 400px;
+ 
 }
